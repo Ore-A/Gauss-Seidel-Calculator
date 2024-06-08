@@ -62,9 +62,9 @@ For example, the following matrix represents the solution `x = 1` and `y = 1`:
 ## Code Structure
 
 - `main`: Contains the main function and handles command-line input.
-- `gauss_seidel`: Implements the Gauss-Seidel algorithm.
-- `convert_to_sparse`: Converts the given dense matrix into a sparse matrix in a Coordinate List (COO) format.
 - `get_matrix_from_csv`: Reads a matrix of doubles from a CSV file, determines the number of rows and columns, allocates memory for the matrix, and fills it with the data from the file.
+- `convert_to_sparse`: Converts the given dense matrix into a sparse matrix in a Coordinate List (COO) format.
+- `gauss_seidel`: Implements the Gauss-Seidel algorithm.
 - `write_solution_to_csv`: Writes an array of doubles to a CSV file, iterating over the array and writing each element on a new line.
 
 ## Sparse Matrix Compression
